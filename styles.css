@@ -1,0 +1,39 @@
+body {
+	background-color: #ffb6c1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+#card {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	text-align: center;
+	width: 300px;
+}
+
+#question {
+	font-size: 24px;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+button {
+	background-color: #ff5873;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 16px;
+	padding: 10px 20px;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+button:hover {
+	background-color: #C1275C;
+}
